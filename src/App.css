@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.App {
+  text-align: center;
+  background-color: #001e38;
+  height: 100vh;
+  padding: 35px 35px 0px 35px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo-header {
+  width: 70px;
+  border-radius: 50px;
+}
+.Text-header {
+  color: #f1ede8;
+  font-weight: 800;
+  text-align: left;
+  font-size: 30px;
+}
+.Text-header > div {
+  font-weight: 400;
+}
+.Text-main {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 50px 0;
+}
+.week-main {
+  display: inline;
+  font-weight: 900;
+}
+.Footer {
+  position: fixed;
+  bottom: 30px;
+  padding: 20px;
+}
+.Text-focus {
+  font-weight: 900;
+  opacity: 30%;
+  font-sixe: 25px;
+}
