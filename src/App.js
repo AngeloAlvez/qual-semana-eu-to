@@ -20,7 +20,7 @@ function App() {
         <div className="Text-main">
         Não se perde hein?!
          <div>
-         Estamos na <div className="week-main">semana {semana - 3} </div> <br/> do programa Desenvolve!
+         Estamos na <div className="week-main">semana {semana - 3} </div> <br/> do programa Desenvolve 2023!
          </div>
         </div>
        
