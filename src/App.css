@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   background-color: #001e38;
   height: 100vh;
-  padding: 35px 35px 0px 35px;
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: Inter;
 }
 
@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  padding: 35px 35px 0px 35px;
 }
 .logo-header {
   width: 70px;
@@ -35,18 +36,77 @@
   font-size: 25px;
   font-weight: 400;
   margin: 50px 0;
+  padding: 0px 35px 0px 35px;
 }
 .week-main {
   display: inline;
   font-weight: 900;
 }
 .Footer {
+  width: 100%;
   position: fixed;
   bottom: 30px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
 }
 .Text-focus {
   font-weight: 900;
   opacity: 30%;
-  font-sixe: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+a + a {
+  margin-bottom: 14px;
+}
+
+.Developers {
+  opacity: 30%;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .App-header {
+    padding-left: 8.75rem;
+  }
+
+  .Text-header {
+    display: flex;
+    gap: .75rem;
+    font-size: 50px;
+  }
+
+  .logo-header {
+    margin-right: 15px;
+  }
+
+  .Text-main {
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 8.75rem;
+  }
+
+  .Footer {
+    font-size: 30px;
+  }
+
+  .Developers {
+    opacity: 30%;
+    font-size: 25px;
+  }
+  
+  a {
+    font-size: 25px;
+  }
 }
